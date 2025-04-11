@@ -14,6 +14,8 @@ ng generate c booking-list
 ng generate c booking-modal
 ng generate s booking
 ```
+## Fix
+Les réservations sont chargées depuis un JSON, elles ne peuvent pas être appelées avec un httpClient depuis l'url car la configuration CORS ne le permet pas
 
 # BookinglistAngular
 
