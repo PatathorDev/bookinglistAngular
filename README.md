@@ -5,6 +5,14 @@ La liste regroupe les réservations, au clic d'une réservation les détails s'a
 
 ![testtechnique](https://github.com/user-attachments/assets/53106dcd-b7a3-4d62-811c-186ffa3c8eb5)
 
+## Commandes entrées pour la création de la structure de l'application 
+```bash
+ng generate c header
+ng generate c booking-card
+ng generate c booking-list
+ng generate c booking-modal
+ng generate s booking
+```
 
 # BookinglistAngular
 
