@@ -1,4 +1,8 @@
 # Liste de réservations en Angular
+
+Front avec un header comprenant un logo et un bouton d'actualisation de la liste ci-dessous.
+La liste regroupe les réservations, au clic d'une réservation les détails s'affichent dans la modal en bas de la fenêtre.
+
 ![testtechnique](https://github.com/user-attachments/assets/53106dcd-b7a3-4d62-811c-186ffa3c8eb5)
 
 
