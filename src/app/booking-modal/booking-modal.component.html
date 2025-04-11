@@ -1,0 +1,7 @@
+<div class="modal" *ngIf="booking">
+    <div class="modal-content">
+      <h2>{{ booking.title }}</h2>
+      <p>{{ booking.description }}</p>
+      <button (click)="booking = null">Fermer</button>
+    </div>
+</div>

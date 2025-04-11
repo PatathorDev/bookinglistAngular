@@ -1,0 +1,11 @@
+<div class="booking-list">
+    <app-booking-card
+      *ngFor="let booking of bookings$ | async"
+      (click)="onSelectBooking(booking)"
+      [booking]="booking"
+    ></app-booking-card>
+    <app-booking-modal
+      [booking]="selectedBooking"
+      (close)="closeModal()"
+    ></app-booking-modal>
+</div>

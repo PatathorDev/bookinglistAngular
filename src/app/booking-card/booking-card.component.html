@@ -1,0 +1,6 @@
+<ng-container *ngIf="booking">
+    <div class="booking-card" (click)="onClick()">
+        <h3>{{ booking.title }}</h3>
+        <p><strong>Du :</strong> {{ booking.date_1 }} <strong>au</strong> {{ booking.date_2 }}</p>
+    </div>
+</ng-container>
