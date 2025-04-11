@@ -7,6 +7,7 @@ La liste regroupe les réservations, au clic d'une réservation les détails s'a
 
 ## Commandes entrées pour la création de la structure de l'application 
 ```bash
+ng new bookinglistAngular --style=scss --skip-tests=true
 ng generate c header
 ng generate c booking-card
 ng generate c booking-list
